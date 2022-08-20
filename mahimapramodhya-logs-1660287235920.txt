@@ -1,0 +1,44 @@
+2022-08-12T06:31:53.766355+00:00 app[api]: Release v4 created by user mahimapramodhya282@gmail.com
+2022-08-12T06:31:53.766355+00:00 app[api]: Set AQUA_SESSION, NO_ONLINE, ANTI_BOT, ONLY_GROUP, REMOVE_BG_API_KEY, OWN_NAME, OWN_NUMBER, AUTO_REACT, URL_1NAME, URL_1LINK, URL_2NAME, URL_2LINK, FOOTER, ANTI_LINK, CAPTION, INBOX_BLOCK, INBOX_BLOCK_MSG, ALIVE_MESSAGE, ALIVE_LOGO, DEPLOYER, SONG_DOWN, SONG_UP, VIDEO_DOWN, VIDEO_UP, FILE_DOWN, FILE_UP, STIC_WM, WORK_TYPE, SUDO, LANGUAGE, HEROKU, HEROKU_API_KEY, HEROKU_APP_NAME, BAN_MESSAGE, ADD_MESSAGE, PROMOTE_MESSAGE, DEMOTE_MESSAGE, MUTE_MESSAGE, UNMUTE_MESSAGE config vars by user mahimapramodhya282@gmail.com
+2022-08-12T06:31:54.874494+00:00 app[api]: Running release v5 commands by user mahimapramodhya282@gmail.com
+2022-08-12T06:31:54.874494+00:00 app[api]: Attach DATABASE (@ref:postgresql-adjacent-60907) by user mahimapramodhya282@gmail.com
+2022-08-12T06:31:54.891666+00:00 app[api]: @ref:postgresql-adjacent-60907 completed provisioning, setting DATABASE_URL. by user mahimapramodhya282@gmail.com
+2022-08-12T06:31:54.891666+00:00 app[api]: Release v6 created by user mahimapramodhya282@gmail.com
+2022-08-12T06:31:55.000000+00:00 app[api]: Build started by user mahimapramodhya282@gmail.com
+2022-08-12T06:36:45.000000+00:00 app[api]: Build succeeded
+2022-08-12T06:36:45.151226+00:00 app[api]: Release v7 created by user mahimapramodhya282@gmail.com
+2022-08-12T06:36:45.151226+00:00 app[api]: Deployed worker (a73b3c896ac2) by user mahimapramodhya282@gmail.com
+2022-08-12T06:53:05.947110+00:00 app[api]: Scaled to worker@1:Free by user mahimapramodhya282@gmail.com
+2022-08-12T06:53:43.224340+00:00 heroku[worker.1]: Starting process with command `/bin/sh -c npm\ start`
+2022-08-12T06:53:44.322039+00:00 heroku[worker.1]: State changed from starting to up
+2022-08-12T06:53:45.167952+00:00 app[worker.1]: 
+2022-08-12T06:53:45.167968+00:00 app[worker.1]: > Aquabot-MD@1.0.0 start /root/aquabot
+2022-08-12T06:53:45.167968+00:00 app[worker.1]: > supervisor -s bot.js
+2022-08-12T06:53:45.167969+00:00 app[worker.1]: 
+2022-08-12T06:53:45.348833+00:00 app[worker.1]: 
+2022-08-12T06:53:45.349234+00:00 app[worker.1]: Running node-supervisor with
+2022-08-12T06:53:45.349266+00:00 app[worker.1]:   program 'bot.js'
+2022-08-12T06:53:45.349288+00:00 app[worker.1]:   --watch '.'
+2022-08-12T06:53:45.349314+00:00 app[worker.1]:   --extensions 'node,js'
+2022-08-12T06:53:45.349340+00:00 app[worker.1]:   --exec 'node'
+2022-08-12T06:53:45.349374+00:00 app[worker.1]: 
+2022-08-12T06:53:45.349481+00:00 app[worker.1]: Starting child process with 'node bot.js'
+2022-08-12T06:53:45.393773+00:00 app[worker.1]: Watching directory '/root/aquabot' for changes.
+2022-08-12T06:53:45.393806+00:00 app[worker.1]: Press rs for restarting the process.
+2022-08-12T06:53:48.111763+00:00 app[worker.1]: Loading EN language...
+2022-08-12T06:53:52.357235+00:00 app[worker.1]: 🪢session Code Verification Completed
+2022-08-12T06:53:53.860401+00:00 app[worker.1]: Device Logged Out, Please Delete Session And Scan Again.
+2022-08-12T06:53:53.862800+00:00 app[worker.1]: (node:24) UnhandledPromiseRejectionWarning: Error: Connection Closed
+2022-08-12T06:53:53.862801+00:00 app[worker.1]:     at sendRawMessage (/root/aquabot/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:49:19)
+2022-08-12T06:53:53.862802+00:00 app[worker.1]:     at sendNode (/root/aquabot/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:60:16)
+2022-08-12T06:53:53.862802+00:00 app[worker.1]:     at Object.logout (/root/aquabot/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:326:19)
+2022-08-12T06:53:53.862802+00:00 app[worker.1]:     at EventEmitter.<anonymous> (/root/aquabot/bot.js:1:207760)
+2022-08-12T06:53:53.862803+00:00 app[worker.1]:     at EventEmitter.emit (events.js:412:35)
+2022-08-12T06:53:53.862803+00:00 app[worker.1]:     at EventEmitter.<anonymous> (/root/aquabot/node_modules/@adiwajshing/baileys/lib/Utils/event-buffer.js:38:16)
+2022-08-12T06:53:53.862804+00:00 app[worker.1]:     at EventEmitter.emit (events.js:400:28)
+2022-08-12T06:53:53.862804+00:00 app[worker.1]:     at Object.emit (/root/aquabot/node_modules/@adiwajshing/baileys/lib/Utils/event-buffer.js:56:23)
+2022-08-12T06:53:53.862805+00:00 app[worker.1]:     at end (/root/aquabot/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:246:12)
+2022-08-12T06:53:53.862805+00:00 app[worker.1]:     at WebSocket.<anonymous> (/root/aquabot/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:419:9)
+2022-08-12T06:53:53.862805+00:00 app[worker.1]: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-08-12T06:53:53.862866+00:00 app[worker.1]: (node:24) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+2022-08-12T06:53:53.862898+00:00 app[worker.1]: (node:24) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
